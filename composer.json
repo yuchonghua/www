@@ -1,0 +1,35 @@
+{
+	"name": "ddvphp/ddv-restful-api",
+	"description": "ddv-restful-api php library",
+	"version": "0.0.1",
+	"minimum-stability":"beta",
+	"require": {
+		"php": ">=5.3",
+		"paragonie/random_compat": "^2.0",
+		"ddvphp/ddv-exception": "0.0.*",
+		"ddvphp/ddv-cors": "0.0.*",
+		"ddvphp/ddv-url": "0.0.*",
+		"ddvphp/ddv-auth": "0.0.*"
+	},
+	"require-dev": {
+	},
+	"suggest": {
+		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
+	},
+	"autoload": {
+		"psr-4": {
+			"DdvPhp\\": "src/"
+		}
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "yuchonghua",
+			"email": "yuchonghua@163.com"
+		},
+		{
+			"name": "zengfangyao",
+			"email": "zengfanyaotara@163.com"
+		}
+	]
+}
