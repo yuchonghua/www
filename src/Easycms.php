@@ -10,4 +10,5 @@ namespace Easyke;
  */
 class Easycms
 {
+    
 }
